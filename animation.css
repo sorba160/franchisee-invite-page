@@ -1,0 +1,80 @@
+.main_head-1{
+    animation: toggleHeading1 15s infinite ;
+  }
+  @keyframes toggleHeading1{
+    0%{
+       opacity: 1;
+    }
+    25%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
+    70%{
+      opacity: 0;
+    } 
+    100%{
+        opacity: 1;
+    }
+  } 
+  .main-head-2{
+    animation: toggleHeading2 15s infinite ;
+  }
+  @keyframes toggleHeading2{
+    0%{
+       opacity: 0;
+    }
+    25%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    70%{
+      opacity: 0;
+    } 
+    100%{
+        opacity: 0;
+    }
+  } 
+  .main-head-3{
+    animation: toggleHeading3 15s infinite ;
+  } 
+  @keyframes toggleHeading3{
+    0%{
+       opacity: 0;
+    }
+    25%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    70%{
+      opacity: 0;
+    } 
+    100%{
+        opacity: 0;
+    }
+  }  
+  .main-head-4{
+    animation: toggleHeading4 15s infinite ;
+  } 
+  @keyframes toggleHeading4{
+    0%{
+       opacity: 0;
+    }
+    25%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }  
+    100%{
+        opacity: 0;
+    }
+}

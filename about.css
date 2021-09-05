@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-main: #0a1920;
+    --clr-bg-hover: #163241;
+    --clr-a-border: hsla(0, 0%, 100%, 0.733);
+    --clr-btn: rgba(0, 0, 0, 0);
+    --clr-btn-hover: rgba(20, 20, 20, 0.397);
+}
+
+html,
+body {
+    font-family: "Varela Round", sans-serif;
+    /* height: 100vh; */
+}
+
+
+
+
+
+.sub-about-container {
+     
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(93, 94, 97, 0.52), rgba(117, 19, 93, 0.73)),url(./images/bg-image-14-1920x578.jpg);
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+} 
+.franchisee_invited h1{ 
+    margin-bottom: 50px;
+    font-size: 50px;
+    
+} 
+.enquire{ 
+    
+    padding:10px 40px;
+    font-size: 24px;
+    color:black;
+    background-color: rgba(165, 150, 19,.7);
+    
+} 
+.enquire:hover{
+    background-color: rgba(218, 199, 30, 0.7);
+}
+.franchisee_invited p{
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+ 
+ul {
+    list-style: none;
+}
+
+
+
+
+.tea   {
+    text-align: left;
+}
+.coffee  {
+    text-align: left;
+}
+.milk   {
+    text-align: left;
+}
+.tea ul li{
+    padding: 10px;
+}
+.coffee ul li{
+    padding: 10px;
+}
+.milk ul li{
+    padding: 10px;
+}
+
+
+.about-container h1 {
+    margin-bottom: 2rem;
+}
+
+.main-about {
+    background-color: #270606;
+    padding: 2rem 0;
+    overflow-x: hidden;
+    /* border-radius: 4px; */
+}
+
+
+
+.about-title{ 
+    margin-left: 40%;
+    color: rgb(150, 150, 150);
+}
+
+.about-description .about-title {
+    font-size: 2.525rem;
+    font-weight: bold;
+}
+
+.about-description { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
